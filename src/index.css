@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+:root {
+  --gold: #c9a84c;
+  --gold-light: #e8d5a3;
+  --black: #0a0a0a;
+  --surface: #111111;
+  --surface-2: #1a1a1a;
+  --text: #f5f0e8;
+  --muted: #6b6560;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--text);
+  font-family: "DM Sans", sans-serif;
+}
