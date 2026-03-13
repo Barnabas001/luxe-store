@@ -28,6 +28,7 @@
     "src",
     "shopComponents/EmptyState.tsx",
     "shopComponents/ShopHeader.tsx",
-    "shopComponents/CategoryTabs.tsx"
+    "shopComponents/CategoryTabs.tsx",
+    "productDetailComponent/ImageGallery.tsx"
   ]
 }
