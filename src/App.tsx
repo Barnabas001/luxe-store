@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { CartProvider } from "./context/CartProvider";
 import Navbar from "./components/layout/Navbar";
+import Home from "./Pages/Home";
 
 export default function App() {
   return (
@@ -8,20 +9,7 @@ export default function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route
-            path="/"
-            element={
-              <div
-                style={{
-                  color: "var(--gold)",
-                  padding: "4rem",
-                  fontFamily: "Cormorant Garamond",
-                }}
-              >
-                Home coming soon...
-              </div>
-            }
-          />
+          <Route path="/" element={<Home />} />
           <Route
             path="/shop"
             element={
