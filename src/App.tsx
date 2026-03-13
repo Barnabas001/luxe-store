@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { CartProvider } from "./context/CartProvider";
 import Navbar from "./components/layout/Navbar";
 import Home from "./Pages/Home";
+import Shop from "./Pages/Shop";
 
 export default function App() {
   return (
@@ -10,14 +11,8 @@ export default function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route
-            path="/shop"
-            element={
-              <div style={{ color: "var(--gold)", padding: "4rem" }}>
-                Shop coming soon...
-              </div>
-            }
-          />
+          <Route path="/shop" element={<Shop />} />
+
           <Route
             path="/cart"
             element={
