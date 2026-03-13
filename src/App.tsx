@@ -4,6 +4,7 @@ import Navbar from "./components/layout/Navbar";
 import Home from "./Pages/Home";
 import Shop from "./Pages/Shop";
 import ProductDetail from "./Pages/ProductDetail";
+import Cart from "./Pages/Cart";
 
 export default function App() {
   return (
@@ -15,14 +16,7 @@ export default function App() {
           <Route path="/shop" element={<Shop />} />
           <Route path="/product/:id" element={<ProductDetail />} />
 
-          <Route
-            path="/cart"
-            element={
-              <div style={{ color: "var(--gold)", padding: "4rem" }}>
-                Cart coming soon...
-              </div>
-            }
-          />
+          <Route path="/cart" element={<Cart />} />
         </Routes>
       </BrowserRouter>
     </CartProvider>

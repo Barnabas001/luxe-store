@@ -29,6 +29,7 @@
     "shopComponents/EmptyState.tsx",
     "shopComponents/ShopHeader.tsx",
     "shopComponents/CategoryTabs.tsx",
-    "productDetailComponent/ImageGallery.tsx"
+    "productDetailComponent/ImageGallery.tsx",
+    "cartComponent/SummaryRow.tsx"
   ]
 }
